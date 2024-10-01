@@ -1,0 +1,132 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Light gray background for the body */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #4CAF50;
+    /* Green */
+    font-size: 36px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+}
+
+h2 {
+    color: #333;
+    /* Dark gray */
+    font-size: 28px;
+    /* Font size */
+}
+
+
+/* Text Styling */
+
+.text-styling p {
+    color: #555;
+    /* Dark gray */
+    font-size: 18px;
+    /* Font size */
+    font-style: italic;
+    /* Italic text */
+}
+
+
+/* Box Model */
+
+.box-model {
+    margin: 20px 0;
+    /* Margin around the section */
+}
+
+.box {
+    width: 300px;
+    /* Width of the content area */
+    margin: 20px;
+    /* Margin around the box */
+    padding: 15px;
+    /* Padding inside the box */
+    border: 2px solid #333;
+    /* Border around the box */
+    background-color: #e7e7e7;
+    /* Background color */
+}
+
+
+/* Backgrounds */
+
+.backgrounds {
+    margin: 20px 0;
+    /* Margin around the section */
+}
+
+.background-box {
+    width: 400px;
+    /* Width of the box */
+    height: 200px;
+    /* Height of the box */
+    background-image: url('https://i.pinimg.com/564x/5e/d5/8c/5ed58cbf79e583bfbab7016077008e28.jpg');
+    /* Background image */
+    background-size: cover;
+    /* Cover the entire box */
+    color: white;
+    /* Text color */
+    display: flex;
+    /* Flexbox for centering content */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    text-align: center;
+    /* Center text */
+}
+
+
+/* Layouts */
+
+.container {
+    display: flex;
+    /* Use flexbox */
+    justify-content: space-between;
+    /* Space items evenly */
+    align-items: center;
+    /* Center items vertically */
+    padding: 20px;
+    /* Padding for the container */
+    background-color: #e7e7e7;
+    /* Background color */
+}
+
+.item {
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text color */
+    padding: 10px;
+    /* Padding inside the item */
+    width: 45%;
+    /* Width of each item */
+    text-align: center;
+    /* Center text */
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+    /* Gray color */
+}
